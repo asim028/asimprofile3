@@ -1,0 +1,177 @@
+body{
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container{
+    position: relative;
+    background-color: white;
+    width:100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 10px 20px 10px black;
+    margin: 50px;
+}
+.container .left_side
+{
+    position: relative;
+    background-color: rgb(138, 71, 138);
+    padding: 40px;
+}
+.profiletext{
+    position:relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    border-bottom: 1px solid black;
+
+}
+.profiletext .imgbx{
+    position: relative;
+    width: 300px;
+    height: 300px;
+   
+    overflow:hidden; 
+}
+.profiletext .imgbx >img{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+
+}
+.profiletext h2
+{
+    color: white;
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    line-height: 1.4em;
+
+}
+.profiletext span
+{
+    font-size: 1.2em;
+    font-weight: 300;
+    color: white;
+}
+ .contactinfo
+ {
+     padding-top: 40px;
+ }
+ .title
+ {
+     color: white;
+     text-transform: uppercase;
+     font-weight: 600;
+     letter-spacing: 1px;
+     margin-bottom: 20px;
+ }
+ .contactinfo ul
+ {
+     position: relative;
+ }
+ .contactinfo ul li
+ {
+    position: relative;
+    margin:10px 0 ;
+    cursor: pointer;
+ }
+ .contactinfo ul li .icon
+ {
+     display: inline-block;
+     width: 30px;
+     font-size: 18px;
+     color: white;
+ }
+ .contactinfo ul li span
+ {
+     color: white;
+     font-weight: 300;
+ }
+ .contactinfo.education li
+ {
+     margin-bottom: 15px;
+ }
+ .contactinfo.contactinfo.education h5
+ {
+     color:yellow;
+     font-weight: 500;
+ }
+ .contactinfo.contactinfo.education h4
+ {
+     color: white;
+     font-weight: 500;
+ }
+ .language ul
+ {
+     color: yellow;
+ }
+ .percent
+ {
+     position: relative;
+     width: 100%;
+     height: 6px;
+     background: skyblue);
+     display: block;
+     margin-top: 5px;
+ }
+ h1
+ {
+     color: purple;
+     text-decoration:underline purple;
+     
+     
+ }
+ p
+{
+    color:black;
+
+    
+}
+
+.container .right_side{
+    position: relative;
+    background-color:white;
+    padding: 40px;
+}
+.about
+{
+    margin-bottom: 30%;
+}
+.skills .box
+{
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    justify-content: center;
+    align-items: center;
+    
+}
+ .skills .box h4
+{
+    text-transform: uppercase;
+    color: rgb(155, 50, 155);
+    font-weight: bold;
+}
+.interest ul 
+{
+  position: absolute;
+  display: inline-flex;
+  grid-template-columns: repeat(4,1fr);
+  color: purple;
+  line-height: 2;
+
+    
+}
